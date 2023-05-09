@@ -1,32 +1,32 @@
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import { ComponentStory, ComponentMeta } from '@storybook/react'
 
-import { Button } from './Button';
+import { Button } from './Button'
 
 export default {
-	title: 'UI/Button',
-	component: Button,
-	argTypes: {
-		fullWidth: {
-			type: 'boolean',
-		},
-	},
-} as ComponentMeta<typeof Button>;
+  title: 'UI/Button',
+  component: Button,
+  argTypes: {
+    fullWidth: {
+      type: 'boolean',
+    },
+  },
+} as ComponentMeta<typeof Button>
 
 const Template: ComponentStory<typeof Button> = (args) => (
-	<Button {...args}>Button</Button>
-);
+  <Button {...args}>Buttonn</Button>
+)
 
-export const Primary = Template.bind({});
+export const Primary = Template.bind({})
 Primary.args = {
-	intent: 'primary',
-};
+  intent: 'primary',
+}
 
-export const Secondary = Template.bind({});
+export const Secondary = Template.bind({})
 Secondary.args = {
-	intent: 'secondary',
-};
+  intent: 'secondary',
+}
 
-export const Danger = Template.bind({});
+export const Danger = Template.bind({})
 Danger.args = {
-	intent: 'danger',
-};
+  intent: 'danger',
+}

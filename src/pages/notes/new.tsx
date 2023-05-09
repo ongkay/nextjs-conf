@@ -1,1 +1,1 @@
-export { NewNote as default } from '../../components/Notes/NewNote';
+export { NewNote as default } from '../../components/Notes/NewNote'

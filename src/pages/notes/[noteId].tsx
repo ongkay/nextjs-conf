@@ -1,1 +1,1 @@
-export { ViewNote as default } from '../../components/Notes/ViewNote';
+export { ViewNote as default } from '../../components/Notes/ViewNote'
